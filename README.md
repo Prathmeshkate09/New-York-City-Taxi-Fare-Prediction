@@ -16,16 +16,15 @@ This project predicts taxi fares in New York City using machine learning techniq
 ## 📁 Project Structure
 New_York_City_Taxi_Fare_Prediction/
 │
+├── model/                          # Trained machine learning model
+│   └── New_York_City_Taxi_Fare_Prediction.pkl
 │
-├── model/ # Trained model file
-│ └── New_York_City_Taxi_Fare_Prediction.pkl
+├── notebooks/                      # Jupyter Notebooks for EDA & training
+│   └── ALLINONE.ipynb              # Combined notebook (EDA + preprocessing + model)
 │
-├── notebooks/ # Jupyter notebooks
-│ └── ALLINONE
-│
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── requirements.txt                # Python dependencies
+└── README.md                       # Project documentation
+
 
 
 ---
