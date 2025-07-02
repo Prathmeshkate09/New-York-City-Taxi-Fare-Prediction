@@ -14,4 +14,41 @@ This project predicts taxi fares in New York City using machine learning techniq
 ---
 
 ## 📁 Project Structure
+New_York_City_Taxi_Fare_Prediction/
+│
+│
+├── model/ # Trained model file
+│ └── New_York_City_Taxi_Fare_Prediction.pkl
+│
+├── notebooks/ # Jupyter notebooks
+│ └── ALLINONE
+│
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Features Used
+
+- Pickup and dropoff latitude & longitude
+- Pickup datetime (with feature engineering)
+- Passenger count
+- Distance calculation (Haversine formula)
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Prathmeshkate09/New_York_City_Taxi_Fare_Prediction.git
+   cd New_York_City_Taxi_Fare_Prediction
+
+   Install Dependencies:
+
+pip install -r requirements.txt
+
+
 
